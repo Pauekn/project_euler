@@ -8,7 +8,8 @@ import sys
 def is_prime_number(number):
     if number < 2:
         return False
-    for i in range(2, (number//2)Men+1):
+    for i in range(2, (number//2)+1):
+        # When i reaches more than the half, there are no more natural numbers to divide by
         if number % i == 0:
             return False
     else:
