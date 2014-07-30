@@ -15,7 +15,7 @@ def get_factorial(n):
     previous = 1
 
     if n < 0:
-        return 0  # Illegal value. Also Evaluates to False
+        return 0  # Illegal value. Also evaluates to False
 
     if n == 1:
         yield 1
